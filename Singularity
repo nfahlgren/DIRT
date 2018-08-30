@@ -42,7 +42,7 @@ From: ubuntu:16.04
 	apt-get -y install git python2.7 python-pip python-graph-tool
 
 	cd /opt
-	git clone git://github.com/Computational-Plant-Science/DIRT.git
+	git clone git://github.com/nfahlgren/DIRT.git
 	cd /opt/DIRT
 	sed -i 's#/usr/local/bin/zbarimg#/usr/bin/zbarimg#' /opt/DIRT/DirtOcr/__init__.py
 	pip install -r /opt/DIRT/requirements.txt
